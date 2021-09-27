@@ -34,32 +34,37 @@ Repositorio del profesor
 
 Sistema de Control de versiones
 
-git bash
+"git bash"
 
-git confing-list "Muetra la configuracion devariables de git"
+git confing-list "Muetra la configuracion de variables de git"
 
-git clone- "Realiza una copia exacta de un repositorios en lacomputadora local "
+git clone- "Realiza una copia exacta de un repositorios en la computadora local "
 
 git init - "Configura un directorio localpara inicia el CVS sobre los archivos del mismo"
 
-git remote add origin htt://github.com/<user>/<Proyecto>.git - Establece la direccion a donde se va a subir el codigo
+git remote add origin "htt://github.com/<user>/<Proyecto>.git" - Establecer la direccion a donde se va a subir el codigo
 
 git add < archivo > agrega a un archivo en estado modified a estado staged
 
-git commit - Etiqueta con una descripcion los archivos modificados y mantenerlos almacenados localmente.
+git add . agraga todos los archivos 
 
-git push origin main- Realiza una modificacion en la la nube 
+git commit -m Etiqueta con una descripcion los archivos modificados y mantenerlos almacenados localmente.
 
-para clonar un repositorio
+git push origin main- Realiza el commit subiendo los cambios fisicamente al servidor 
 
-git clone " Direccion del directorio"
+fit pull - Realiza una actualizacion desde el servidor a la computadora local con la ultima version de los archivos 
 
+git status - muesta las modificaciones realizadas en un archivo
 
+git rm -r --cached "Nombre de la carpeta" para eliminar una carpeta del repositorio y no localmente
+(Ejecutar el commit y despues el push para hace las modificaciones)
+Comandos git para branch
 
+git branch - para ver en que branch estas trabajando
 
-git add./ toma todos los alchivos para ponerlos en modo de espera
+git branch <nombre del branch> crear un nuevo branch y checkout para cambiar al nuevo branch
 
-git commit -m "Nombre del alchivo" Se prepara el archivo para subirse a git bash
+git checkout -b <branch> bajar un branch
 
 
 
